@@ -1,0 +1,24 @@
+vhdl xil_defaultlib  \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_PCAdder_0_0/sim/RIJTypeDatapath_PCAdder_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_ALU_0_0/sim/RIJTypeDatapath_ALU_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_ALUSrcMux_0_0/sim/RIJTypeDatapath_ALUSrcMux_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_ALU_Control_0_0/sim/RIJTypeDatapath_ALU_Control_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_BranchLogic_0_0/sim/RIJTypeDatapath_BranchLogic_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_BranchMux_0_0/sim/RIJTypeDatapath_BranchMux_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_Control_0_0/sim/RIJTypeDatapath_Control_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_DataMem_0_0/sim/RIJTypeDatapath_DataMem_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_InstMem_0_0/sim/RIJTypeDatapath_InstMem_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_ProgramCounter_0_0/sim/RIJTypeDatapath_ProgramCounter_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_RegDstMux_0_0/sim/RIJTypeDatapath_RegDstMux_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_RegFile_0_0/sim/RIJTypeDatapath_RegFile_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_SignExt_0_0/sim/RIJTypeDatapath_SignExt_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_WriteBackMux_0_0/sim/RIJTypeDatapath_WriteBackMux_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_branch_adder_0_0/sim/RIJTypeDatapath_branch_adder_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_JumpTargetAddressCalc_0_0/sim/RIJTypeDatapath_JumpTargetAddressCalc_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_jumpLogic_0_0/sim/RIJTypeDatapath_jumpLogic_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_jumpOutMux_0_0/sim/RIJTypeDatapath_jumpOutMux_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/ip/RIJTypeDatapath_jmpSrcMux_0_0/sim/RIJTypeDatapath_jmpSrcMux_0_0.vhd" \
+"../../../bd/RIJTypeDatapath/sim/RIJTypeDatapath.vhd" \
+
+# Do not sort compile order
+nosort

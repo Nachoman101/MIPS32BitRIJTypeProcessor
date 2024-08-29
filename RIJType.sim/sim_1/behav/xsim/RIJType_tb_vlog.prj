@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_xlslice_0_0/sim/RIJTypeDatapath_xlslice_0_0.v" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_xlslice_1_0/sim/RIJTypeDatapath_xlslice_1_0.v" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_xlslice_2_0/sim/RIJTypeDatapath_xlslice_2_0.v" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_xlslice_3_0/sim/RIJTypeDatapath_xlslice_3_0.v" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_xlslice_4_0/sim/RIJTypeDatapath_xlslice_4_0.v" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_xlslice_5_0/sim/RIJTypeDatapath_xlslice_5_0.v" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_xlslice_6_0/sim/RIJTypeDatapath_xlslice_6_0.v" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_xlslice_7_0/sim/RIJTypeDatapath_xlslice_7_0.v" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_xlslice_8_0/sim/RIJTypeDatapath_xlslice_8_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

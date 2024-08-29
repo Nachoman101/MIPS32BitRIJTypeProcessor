@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+ERROR: Index 259 out of bound 0 to 255
+Time: 1910 ns  Iteration: 4  Process: /RIJType_tb/RIJType_inst/RIJTypeDatapath_i/InstMem_0/U0/line__229
+  File: C:/Users/javie/Documents/VHDLStuff/RIJType/RIJType.srcs/sources_1/new/InstMem.vhd
+
+HDL Line: C:/Users/javie/Documents/VHDLStuff/RIJType/RIJType.srcs/sources_1/new/InstMem.vhd:229

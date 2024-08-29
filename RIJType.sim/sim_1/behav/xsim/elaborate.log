@@ -1,0 +1,77 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot RIJType_tb_behav xil_defaultlib.RIJType_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ALUSrcMux [alusrcmux_default]
+Compiling architecture rijtypedatapath_alusrcmux_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_ALUSrcMux_0_0 [rijtypedatapath_alusrcmux_0_0_de...]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture rijtypedatapath_alu_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_ALU_0_0 [rijtypedatapath_alu_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU_Control [alu_control_default]
+Compiling architecture rijtypedatapath_alu_control_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_ALU_Control_0_0 [rijtypedatapath_alu_control_0_0_...]
+Compiling architecture behavioral of entity xil_defaultlib.BranchLogic [branchlogic_default]
+Compiling architecture rijtypedatapath_branchlogic_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_BranchLogic_0_0 [rijtypedatapath_branchlogic_0_0_...]
+Compiling architecture behavioral of entity xil_defaultlib.BranchMux [branchmux_default]
+Compiling architecture rijtypedatapath_branchmux_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_BranchMux_0_0 [rijtypedatapath_branchmux_0_0_de...]
+Compiling architecture behavioral of entity xil_defaultlib.Control [control_default]
+Compiling architecture rijtypedatapath_control_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_Control_0_0 [rijtypedatapath_control_0_0_defa...]
+Compiling architecture behavioral of entity xil_defaultlib.DataMem [datamem_default]
+Compiling architecture rijtypedatapath_datamem_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_DataMem_0_0 [rijtypedatapath_datamem_0_0_defa...]
+Compiling architecture behavioral of entity xil_defaultlib.InstMem [instmem_default]
+Compiling architecture rijtypedatapath_instmem_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_InstMem_0_0 [rijtypedatapath_instmem_0_0_defa...]
+Compiling architecture behavioral of entity xil_defaultlib.JumpTargetAddressCalc [jumptargetaddresscalc_default]
+Compiling architecture rijtypedatapath_jumptargetaddresscalc_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_JumpTargetAddressCalc_0_0 [rijtypedatapath_jumptargetaddres...]
+Compiling architecture behavioral of entity xil_defaultlib.PCAdder [pcadder_default]
+Compiling architecture rijtypedatapath_pcadder_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_PCAdder_0_0 [rijtypedatapath_pcadder_0_0_defa...]
+Compiling architecture behavioral of entity xil_defaultlib.ProgramCounter [programcounter_default]
+Compiling architecture rijtypedatapath_programcounter_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_ProgramCounter_0_0 [rijtypedatapath_programcounter_0...]
+Compiling architecture behavioral of entity xil_defaultlib.RegDstMux [regdstmux_default]
+Compiling architecture rijtypedatapath_regdstmux_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_RegDstMux_0_0 [rijtypedatapath_regdstmux_0_0_de...]
+Compiling architecture behavioral of entity xil_defaultlib.RegFile [regfile_default]
+Compiling architecture rijtypedatapath_regfile_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_RegFile_0_0 [rijtypedatapath_regfile_0_0_defa...]
+Compiling architecture behavioral of entity xil_defaultlib.SignExt [signext_default]
+Compiling architecture rijtypedatapath_signext_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_SignExt_0_0 [rijtypedatapath_signext_0_0_defa...]
+Compiling architecture behavioral of entity xil_defaultlib.WriteBackMux [writebackmux_default]
+Compiling architecture rijtypedatapath_writebackmux_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_WriteBackMux_0_0 [rijtypedatapath_writebackmux_0_0...]
+Compiling architecture behavioral of entity xil_defaultlib.branch_adder [branch_adder_default]
+Compiling architecture rijtypedatapath_branch_adder_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_branch_adder_0_0 [rijtypedatapath_branch_adder_0_0...]
+Compiling architecture behavioral of entity xil_defaultlib.jmpSrcMux [jmpsrcmux_default]
+Compiling architecture rijtypedatapath_jmpsrcmux_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_jmpSrcMux_0_0 [rijtypedatapath_jmpsrcmux_0_0_de...]
+Compiling architecture behavioral of entity xil_defaultlib.jumpLogic [jumplogic_default]
+Compiling architecture rijtypedatapath_jumplogic_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_jumpLogic_0_0 [rijtypedatapath_jumplogic_0_0_de...]
+Compiling architecture behavioral of entity xil_defaultlib.jumpOutMux [jumpoutmux_default]
+Compiling architecture rijtypedatapath_jumpoutmux_0_0_arch of entity xil_defaultlib.RIJTypeDatapath_jumpOutMux_0_0 [rijtypedatapath_jumpoutmux_0_0_d...]
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.RIJTypeDatapath_xlslice_0_0
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.RIJTypeDatapath_xlslice_1_0
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.RIJTypeDatapath_xlslice_2_0
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.RIJTypeDatapath_xlslice_3_0
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.RIJTypeDatapath_xlslice_4_0
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.RIJTypeDatapath_xlslice_5_0
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.RIJTypeDatapath_xlslice_6_0
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.RIJTypeDatapath_xlslice_7_0
+Compiling module xil_defaultlib.RIJTypeDatapath_xlslice_8_0
+Compiling architecture structure of entity xil_defaultlib.RIJTypeDatapath [rijtypedatapath_default]
+Compiling architecture structure of entity xil_defaultlib.RIJTypeDatapath_wrapper [rijtypedatapath_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.rijtype_tb
+Built simulation snapshot RIJType_tb_behav

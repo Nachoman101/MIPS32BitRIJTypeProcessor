@@ -1,0 +1,46 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../RIJType.srcs/sources_1/new/PCAdder.vhd" \
+"../../../../RIJType.srcs/sources_1/new/ALU.vhd" \
+"../../../../RIJType.srcs/sources_1/new/ALUSrcMux.vhd" \
+"../../../../RIJType.srcs/sources_1/new/ALU_Control.vhd" \
+"../../../../RIJType.srcs/sources_1/new/BranchLogic.vhd" \
+"../../../../RIJType.srcs/sources_1/new/BranchMux.vhd" \
+"../../../../RIJType.srcs/sources_1/new/Control.vhd" \
+"../../../../RIJType.srcs/sources_1/new/DataMem.vhd" \
+"../../../../RIJType.srcs/sources_1/new/InstMem.vhd" \
+"../../../../RIJType.srcs/sources_1/new/ProgramCounter.vhd" \
+"../../../../RIJType.srcs/sources_1/new/RegDstMux.vhd" \
+"../../../../RIJType.srcs/sources_1/new/RegFile.vhd" \
+"../../../../RIJType.srcs/sources_1/new/SignExt.vhd" \
+"../../../../RIJType.srcs/sources_1/new/WriteBackMux.vhd" \
+"../../../../RIJType.srcs/sources_1/new/branch_adder.vhd" \
+"../../../../RIJType.srcs/sources_1/new/JumpTargetAddressCalc.vhd" \
+"../../../../RIJType.srcs/sources_1/new/jumpLogic.vhd" \
+"../../../../RIJType.srcs/sources_1/new/jumpOutMux.vhd" \
+"../../../../RIJType.srcs/sources_1/new/jmpSrcMux.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_PCAdder_0_0/sim/RIJTypeDatapath_PCAdder_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_ALU_0_0/sim/RIJTypeDatapath_ALU_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_ALUSrcMux_0_0/sim/RIJTypeDatapath_ALUSrcMux_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_ALU_Control_0_0/sim/RIJTypeDatapath_ALU_Control_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_BranchLogic_0_0/sim/RIJTypeDatapath_BranchLogic_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_BranchMux_0_0/sim/RIJTypeDatapath_BranchMux_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_Control_0_0/sim/RIJTypeDatapath_Control_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_DataMem_0_0/sim/RIJTypeDatapath_DataMem_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_InstMem_0_0/sim/RIJTypeDatapath_InstMem_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_ProgramCounter_0_0/sim/RIJTypeDatapath_ProgramCounter_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_RegDstMux_0_0/sim/RIJTypeDatapath_RegDstMux_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_RegFile_0_0/sim/RIJTypeDatapath_RegFile_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_SignExt_0_0/sim/RIJTypeDatapath_SignExt_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_WriteBackMux_0_0/sim/RIJTypeDatapath_WriteBackMux_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_branch_adder_0_0/sim/RIJTypeDatapath_branch_adder_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_JumpTargetAddressCalc_0_0/sim/RIJTypeDatapath_JumpTargetAddressCalc_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_jumpLogic_0_0/sim/RIJTypeDatapath_jumpLogic_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_jumpOutMux_0_0/sim/RIJTypeDatapath_jumpOutMux_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/ip/RIJTypeDatapath_jmpSrcMux_0_0/sim/RIJTypeDatapath_jmpSrcMux_0_0.vhd" \
+"../../../../RIJType.ip_user_files/bd/RIJTypeDatapath/sim/RIJTypeDatapath.vhd" \
+"../../../../RIJType.gen/sources_1/bd/RIJTypeDatapath/hdl/RIJTypeDatapath_wrapper.vhd" \
+"../../../../RIJType.srcs/sim_1/new/RIJType_tb.vhd" \
+
+# Do not sort compile order
+nosort
